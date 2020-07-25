@@ -24,7 +24,9 @@ ext {
 
 dependencies {
 	implementation group: 'de.codecentric', name: 'spring-boot-admin-starter-server', version: '2.2.3'
+	implementation group: 'de.codecentric', name: 'spring-boot-admin-server-ui', version: '2.2.3'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
