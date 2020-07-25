@@ -13,7 +13,7 @@ pipeline {
             	echo "*****************Build*****************"
             	dir("${WORKSPACE}"){
 	                echo "Gradle build started"
-	                sh "gradle build -x test"
+	                sh "gradlew build -x test"
 	                echo "Gradle build completed"
             	}
             }
